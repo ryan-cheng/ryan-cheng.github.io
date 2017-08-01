@@ -12,6 +12,11 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<style>
+			.noselect {
+			  -webkit-table-layout: none; table-layout: none; /* iOS Safari */ /* Safari */ -webkit-user-select: none; /* Konqueror HTML */ -moz-user-select: none; /* Firefox */ -ms-user-select: none; /* Internet Explorer/Edge */ user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+			}
+		</style>
+		<style>
 		#myDIV {
 		    width: 100%;
 		    text-align: left;
@@ -68,7 +73,7 @@
 						<header class="major">
 							<h2>About Me</h2>
 						</header>
-						<p>I am currently a high school student at Westmont High School. I have had involvements in multiple summer jobs/internships. At school, I engage my engineering experience as the Vice President for my school's robotics team. My summer internships at 2-Dooz Inc. and TechLab Education greatly increased my proficiency in computer science. To further gain knowledge in STEM, I have taken a course in the PLTW engineering pathway and 4 college-level courses (Computer Science, Chemistry, Calculus BC, and Physics). In the coming year I plan to take Engineering Development and Design (the capstone class of the PLTW pathway) and a college level Statistics course to also develop my education in engineering.</p>
+						<p class = "noselect">I am currently a high school student at Westmont High School. I have had involvements in multiple summer jobs/internships. At school, I engage my engineering experience as the Vice President for my school's robotics team. My summer internships at 2-Dooz Inc. and TechLab Education greatly increased my proficiency in computer science. To further gain knowledge in STEM, I have taken a course in the PLTW engineering pathway and 4 college-level courses (Computer Science, Chemistry, Calculus BC, and Physics). In the coming year I plan to take Engineering Development and Design (the capstone class of the PLTW pathway) and a college level Statistics course to also develop my education in engineering.</p>
 						<ul class="actions">
 							<li><a href="https://www.linkedin.com/in/ryan-m-cheng/" class="button">More Info</a></li>
 						</ul>
@@ -81,7 +86,7 @@
 
 						<br>&nbsp;</br>		
 
-						<p>Founded by the interns of TechLab Education, Squar3 is a camera technology development team focused on integrating Virtual Reality into everyday life. Based in Saratoga, California, we have utilized highly advanced image recognition software to innovate upon modern social media. Using our optimized fiducial identification system and our intuitive mobile app, we will-- Rotate Your Life Into Perspective. <br>&nbsp;</br><br>As the Chief Executive Officer, I am currently learning the numerous aspects of managing a start-up company.  In addition to understanding how to successfully create and advertise a product, I am on the development team.  So far, I have: coded the launch website for the Squar3 app (Coming August 2017), begun coding the app, and begun coding the Java/Objective-C library for the app.</br></p>
+						<p class = "noselect">Founded by the interns of TechLab Education, Squar3 is a camera technology development team focused on integrating Virtual Reality into everyday life. Based in Saratoga, California, we have utilized highly advanced image recognition software to innovate upon modern social media. Using our optimized fiducial identification system and our intuitive mobile app, we will-- Rotate Your Life Into Perspective. <br>&nbsp;</br><br>As the Chief Executive Officer, I am currently learning the numerous aspects of managing a start-up company.  In addition to understanding how to successfully create and advertise a product, I am on the development team.  So far, I have: coded the launch website for the Squar3 app (Coming August 2017), begun coding the app, and begun coding the Java/Objective-C library for the app.</br></p>
 						<ul class="actions">
 							<li><a href="http://squar3.io" class="button">More Info</a></li>
 						</ul>
@@ -99,9 +104,9 @@
 								</a>								
 								<div id="myDIV">
 									<h3 style = "font-size: 0.8em; margin-bottom: 0em;">7/13</h3>
-									<p>Today was my first day in the Robotics Lab.  Prior to going to the lab, I learned the fundamentals of C: syntax and how to store data.  I proceeded to use this basic knowledge in the lab by learning how to properly set up a project.  Using the IDE, MPLAB X, I created my first program in C; Hello World.  This program simply tells the PIC-32 microcontroller to print "Hello World" in the Serial Monitor.  In the project, I continued to learn essential information about how the roach receives the program.  I added .h and .c files, compiled the hex file, and wrote the software to the roach using the bootloader. </p>
+									<p class = "noselect">Today was my first day in the Robotics Lab.  Prior to going to the lab, I learned the fundamentals of C: syntax and how to store data.  I proceeded to use this basic knowledge in the lab by learning how to properly set up a project.  Using the IDE, MPLAB X, I created my first program in C; Hello World.  This program simply tells the PIC-32 microcontroller to print "Hello World" in the Serial Monitor.  In the project, I continued to learn essential information about how the roach receives the program.  I added .h and .c files, compiled the hex file, and wrote the software to the roach using the bootloader. </p>
 									<h3 style = "font-size: 0.8em; margin-bottom: 0em;">7/14</h3>
-									<p>Today I established a better understanding of the building blocks of a C program.  These building blocks include, but are not limited to: loops/conditions, initializing/declaring variables, and functions.  At the lab, I followed the instructions in the Lab 1 pdf and explored the hardware functions on the roach.  My partner and I successfully completed the first lab and continued to make the roach move and use bumper detection for navigation.</p>
+									<p class = "noselect">Today I established a better understanding of the building blocks of a C program.  These building blocks include, but are not limited to: loops/conditions, initializing/declaring variables, and functions.  At the lab, I followed the instructions in the Lab 1 pdf and explored the hardware functions on the roach.  My partner and I successfully completed the first lab and continued to make the roach move and use bumper detection for navigation.</p>
 								</div>
 							</article>
 							<article class="6u$ 12u$(xsmall) work-item">
@@ -111,9 +116,9 @@
 								</a>								
 								<div id="myDIV2">
 									<h3 style = "font-size: 0.8em; margin-bottom: 0em;">7/18</h3>
-									<p>Today, I was given a more defined and elaborate lecture about functions in C.  Functions must be declared before/above the main function.  When programming in C, the functions have three parts: the declaration, the definition, and the call.  The declaration of a function has a return type and a name and can be written with one of two varitations: types of parameters and parameters with their respective types.  Calling a function requires providing values to the parameters.  These space for parameters and the return value are added to the stack.  When the function is completed, the local variables are unaccessible and the stack pointer goes to the return value.</p>
+									<p class = "noselect">Today, I was given a more defined and elaborate lecture about functions in C.  Functions must be declared before/above the main function.  When programming in C, the functions have three parts: the declaration, the definition, and the call.  The declaration of a function has a return type and a name and can be written with one of two varitations: types of parameters and parameters with their respective types.  Calling a function requires providing values to the parameters.  These space for parameters and the return value are added to the stack.  When the function is completed, the local variables are unaccessible and the stack pointer goes to the return value.</p>
 									<h3 style = "font-size: 0.8em; margin-bottom: 0em;">7/19</h3>
-									<p>Today in the lab, I experimented with the LEDs on the roach.  In the assigned Lab, one of the tasks was to make the LED bar responsive to the amount of light the photoresistor is receiving.  Using the given function "Roach_LightLevel()", I was able to scale the light sensor to return a value between 0 and 12.  In the main function, we set the LEDs to respond to the amount of light by writing "Roach_LEDSSet(0b111111111111 << scaledLight)".  This turns the led bar completely on and shifts it left based on the value returned by the scaled light function.</p>
+									<p class = "noselect">Today in the lab, I experimented with the LEDs on the roach.  In the assigned Lab, one of the tasks was to make the LED bar responsive to the amount of light the photoresistor is receiving.  Using the given function "Roach_LightLevel()", I was able to scale the light sensor to return a value between 0 and 12.  In the main function, we set the LEDs to respond to the amount of light by writing "Roach_LEDSSet(0b111111111111 << scaledLight)".  This turns the led bar completely on and shifts it left based on the value returned by the scaled light function.</p>
 								</div>
 							</article>
 							<article class="6u 12u$(xsmall) work-item">
@@ -123,15 +128,15 @@
 								</a>								
 								<div id="myDIV3">
 									<h3 style = "font-size: 0.8em; margin-bottom: 0em;">7/24</h3>
-									<p>Today I was assigned the third Lab of our Robotics course.  In Lab 3, the objective is to  to make the roach navigate by simply calling functions (i.e. Forward(), Reverse(), ArcLeft(), etc).  Utilizing the given functions: Roach_RightMtrSpeed() and Roach_LeftMtrSpeed().  To easily change the radius of the arc in the ArcLeft()/ArcRight() functions, I defined the ratio of wheel speeds.  "#define"'s are essential to making your code universally applicable.</p>
+									<p class = "noselect">Today I was assigned the third Lab of our Robotics course.  In Lab 3, the objective is to  to make the roach navigate by simply calling functions (i.e. Forward(), Reverse(), ArcLeft(), etc).  Utilizing the given functions: Roach_RightMtrSpeed() and Roach_LeftMtrSpeed().  To easily change the radius of the arc in the ArcLeft()/ArcRight() functions, I defined the ratio of wheel speeds.  "#define"'s are essential to making your code universally applicable.</p>
 									<h3 style = "font-size: 0.8em; margin-bottom: 0em;">7/25</h3>
-									<p>Today I was introduced to enumerations and state machines.  Enumerations are integer data types with a limited range of values.  This variable type is useful for making code easier to read and maintain.  State Machines can be used to accurately describe the behavior of event driven systems.  These allow us to explore and design the system before coding.</p>
+									<p class = "noselect">Today I was introduced to enumerations and state machines.  Enumerations are integer data types with a limited range of values.  This variable type is useful for making code easier to read and maintain.  State Machines can be used to accurately describe the behavior of event driven systems.  These allow us to explore and design the system before coding.</p>
 									<h3 style = "font-size: 0.8em; margin-bottom: 0em;">7/26</h3>
-									<p>Today, Professor Elkaim elaborated on the specific applications of state machines.  Going in depth, we designed the state machine for a bomb.  The states for the bomb include: "disarmed", "arm", "boom", etc.  In the lab, I began investigating and implementing different applications for state machines.</p>
+									<p class = "noselect">Today, Professor Elkaim elaborated on the specific applications of state machines.  Going in depth, we designed the state machine for a bomb.  The states for the bomb include: "disarmed", "arm", "boom", etc.  In the lab, I began investigating and implementing different applications for state machines.</p>
 									<h3 style = "font-size: 0.8em; margin-bottom: 0em;">7/27</h3>
-									<p>Today I went directly to the Robotics Lab and started working on Lab 4: Navigation.  This Lab is focused on accurately modifying the roach's movement by changing speed and time parameters.  Although it seemed easy to begin with, the lab became more complicated as we progressed through more complex paths.  By the end of our time in the lab, we successfully programmed the roach to go through two different mazes, using timers and built-in functions.</p>
+									<p class = "noselect">Today I went directly to the Robotics Lab and started working on Lab 4: Navigation.  This Lab is focused on accurately modifying the roach's movement by changing speed and time parameters.  Although it seemed easy to begin with, the lab became more complicated as we progressed through more complex paths.  By the end of our time in the lab, we successfully programmed the roach to go through two different mazes, using timers and built-in functions.</p>
 									<h3 style = "font-size: 0.8em; margin-bottom: 0em;">7/28</h3>
-									<p>Today, I learned about the the microcontrollers that make our robots function properly.  There are two types of transistors that we covered in depth: bipolar junction and MOSFET.  These transistors act as electronic switches that receive input and send output.  Later, in the lab, I made my navigation code for Lab 4 more applicable and readable by creating more "#define"'s.  As described in an earlier log, these "#define"s are useful for easily changing parameters, such as time and speed, across multiple functions.</p>
+									<p class = "noselect">Today, I learned about the the microcontrollers that make our robots function properly.  There are two types of transistors that we covered in depth: bipolar junction and MOSFET.  These transistors act as electronic switches that receive input and send output.  Later, in the lab, I made my navigation code for Lab 4 more applicable and readable by creating more "#define"'s.  As described in an earlier log, these "#define"s are useful for easily changing parameters, such as time and speed, across multiple functions.</p>
 								</div>
 							</article>
 							<article class="6u$ 12u$(xsmall) work-item">
@@ -141,15 +146,15 @@
 								</a>
 								<div id="myDIV4">
 									<h3 style = "font-size: 0.8em; margin-bottom: 0em;">7/31</h3>
-									<p>Today was the first day I started working on my final project.  My randomly assigned partner, Mark Lindblad, and I succesfully made a memory efficient solution to Lab 5.  Focused on learning and implementing state machines, we explored different applications of these state machines (i.e. a bomb).  Currently, we are working on drawing the complete state machine for our roach.</p>
+									<p class = "noselect">Today was the first day I started working on my final project.  My randomly assigned partner, Mark Lindblad, and I succesfully made a memory efficient solution to Lab 5.  Focused on learning and implementing state machines, we explored different applications of these state machines (i.e. a bomb).  Currently, we are working on drawing the complete state machine for our roach.</p>
 									<h3 style = "font-size: 0.8em; margin-bottom: 0em;">8/1</h3>
-									<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+									<p class = "noselect">Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 									<h3 style = "font-size: 0.8em; margin-bottom: 0em;">8/2</h3>
-									<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+									<p class = "noselect">Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 									<h3 style = "font-size: 0.8em; margin-bottom: 0em;">8/3</h3>
-									<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+									<p class = "noselect">Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 									<h3 style = "font-size: 0.8em; margin-bottom: 0em;">8/4</h3>
-									<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+									<p class = "noselect">Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 								</div>
 							</article>
 						</div>
@@ -159,15 +164,15 @@
 						<h2 style=" font-size: 1.25em;">Cryptocurrency (<a href = "https://bitcoin.org/en/" class="icon fa-btc"></a>)</h2>
 						<p></p>		
 						<h2 style="font-size: 1em; margin-bottom: 0.5em;">About</h2>
-						<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+						<p class = "noselect">Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
 						<h2 style="font-size: 1em; margin-bottom: 0.5em;">Pros</h2>
-						<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+						<p class = "noselect">Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
 						<h2 style="font-size: 1em; margin-bottom: 0.5em;">Cons</h2>
-						<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+						<p class = "noselect">Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
 						<h2 style="font-size: 1em; margin-bottom: 0.5em;">How to Mine</h2>
-						<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+						<p class = "noselect">Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
 						<h2 style="font-size: 1em; margin-bottom: 0.5em;">Current State</h2>
-						<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+						<p class = "noselect">Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
 						<ul class="actions">
 							<li><a href="https://en.wikipedia.org/wiki/Cryptocurrency#cite_note-altcoin1-4" class="button">More Info</a></li>
 						</ul>
